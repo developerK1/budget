@@ -8,7 +8,7 @@ const port = process.env.PORT || 4040;
 
 
 const corsOptions = {
-  origin: 'https://budget-app-blush.vercel.app/',
+  origin: 'https://budget-app.herokuapp.com/transaction',
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true, // Enable cookies and HTTP authentication
   optionsSuccessStatus: 204, // Respond to preflight requests with 204 No Content
